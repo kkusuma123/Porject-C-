@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7783F88B-2BF6-4E17-965A-C51830A587CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Final_Project</RootNamespace>
+    <AssemblyName>Final Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังโปรเจค.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังหน้า login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังหน้า สมัครสมาชิก.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังหน้า สมัครสมาชิก1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังหน้าสมัครสมาชิก 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\พื้นหลังหน้า สมัครสมาชิก 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\รูปกลับหน้าร้าน.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\รูปกลับหน้าร้าน %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon กลับหน้าร้าน.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288183791_556111039316334_4680302376244438887_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289073449_611102636729605_7143261997270289752_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\วิธีการชำระเงิน.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\วิธีการชำระเงิน %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285611223_1944858659048186_2902784905806891774_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287764446_369226305105163_8592387257878451136_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289005115_423128373025987_1400166710022097362_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ต่างหู.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ต่างหู %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สร้อย.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289112328_1083812635676922_2540756438035814830_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289049967_1449340952154135_2663564175286359233_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288712771_422198953129597_917159309288212853_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285832531_433460521951543_922038213287856753_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\เซ็ต.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สต.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สต %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สต %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สต %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ข้อมือ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ข้อมือ11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ข้อมือ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ข้อมือ %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ข้อมือ %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แหวน.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แหวน %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แหวน %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แหวน %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289386282_563696268718637_8135653329458998515_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287945561_760476508302683_6241517223662648406_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\286896763_596160921942099_1118091292773833384_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287931468_1405531683281240_1692893724903367365_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\286906002_1170362413805367_7985239740543581564_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287829267_7720599781346269_79058984753621640_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287006415_586603353046054_4435237652874761000_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289938349_1226878588136060_3927683584883279099_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\วิธีการสั่งซื้อสินค้า.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชำระค่าสินค้า.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชำระค่าสินค้า %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ใบเสร็จ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ใบเสร็จ %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ใบเสร็จ %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\292596439_343822371235038_5137462706340958687_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\292379456_553034346515786_2770630076481280770_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload-2398772_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดาวน์โหลด.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดาวน์โหลด %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดาวน์โหลด %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดาวน์โหลด %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288063566_800823574241597_260718386025413865_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285766442_1145589846299206_8449256487916006582_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287101062_440874881195162_6926378699261306986_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm_5afb01725ceca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\293742696_618598929508355_3156659388611497458_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\รถบรรทุก.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
